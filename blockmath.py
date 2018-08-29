@@ -28,7 +28,7 @@ def estimateBlockHeight(target_timestamp):
             #if the difference is less than one day
             delta = 0.0 * (target_timestamp - row[1])
             b  += delta/row[2]
-    print(b)
+    print(int(b))
 
 
 if __name__ == '__main__':
